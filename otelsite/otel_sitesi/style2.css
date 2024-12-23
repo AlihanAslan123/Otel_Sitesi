@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("/otel_sitesi/resim/oda1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    font-weight: bold;
+}
+
+.giris-kapsayi {
+    background-color: rgb(240, 240, 240);
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+    top:130px;
+}
+
+.giris-kapsayi h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.hata {
+    color: #ff4d4d;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border: 1px solid #ffcccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.girdi-grubu {
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.girdi-grubu label {
+    display: block;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.girdi-grubu input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.kayit-linki {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.kayit-linki a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.kayit-linki a:hover {
+    text-decoration: underline;
+}
+
+

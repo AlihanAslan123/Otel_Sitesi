@@ -1,0 +1,671 @@
+body{
+    margin:0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+/* NAVBAR CSS'i */
+
+.navbarust{
+    position: relative;
+    background-color: rgb(42, 106, 125);
+    width: 100% ;
+    height: 22vh;
+}
+#navbar1{
+    height: 5.8vh;
+    background-color: rgb(42, 106, 125);
+    width: 100%;
+    
+}
+#navbar1 > #sol{
+    background-color: rgb(42, 106, 125);
+    height: 5.8vh;
+    width: 15vw;
+    border-right:2px solid black;
+}
+#navbar1 > #sol img{
+    position: relative;
+    left: 12vw;
+    top:1vh;
+    cursor: pointer;
+    opacity: 0.5;
+}
+#navbar1 > #sol img:hover{
+    opacity: 1;
+}
+#navbar1 > #sag{
+    background-color: rgb(42, 106, 125);
+    height: 5.8vh;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left: 15.1vw;
+    color : rgb(255, 255, 255);    
+    font-weight: bold;
+}
+#navbar1 > #sag span{
+    margin-left: 52vw;
+}
+#navbar1 > #sag img{
+    position: relative;
+    left:1vw;
+    top:1vh;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#navbar1 > #sag img:hover{
+    opacity: 1;
+}
+.navbar{
+    background-color: rgb(42, 106, 125);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -33%); /* Merkeze taşır */
+    width: 100%;
+    height: 15vh;
+    border: 2px solid black;
+}
+.navbar span{
+    color:white;
+    font-size: 33pt;
+    position: relative;
+    top:3.5vh;
+    left: 7vw;
+    font-weight: bold;
+}
+.navbar table{
+    width:38vw;
+    position: relative;
+    left: 58vw;
+    bottom: 2.2vh;
+}
+.navbar table a{
+    color:white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+.navbar table a:hover{
+    color:yellow;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7b00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.button:hover {
+    background-color: #c43e00;
+    color:white !important;
+}
+
+
+
+/* KARIŞILAMA YERİ CSSLERİ */
+.hosgeldinust {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color: #d2d2d4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.hhos {
+    max-width: 50%;
+}
+
+.hhos h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hhos p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btnhos {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1 {
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #ff7b00;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: #555;
+    width: 120px;
+    border-radius: 10px;
+    color:white;
+    font-size:12pt;
+}
+
+.btn1:hover {
+    background-color: #ff5500;
+    transform: scale(1.05);
+}
+
+.btn2:hover {
+    background-color: #333;
+}
+
+.resmh img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+/* HİZMETLERİMİZ CSS'i  */
+
+.middle {
+    margin: 5vh 2.5vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90vw;
+    background-color: #f9f9f9;
+}
+
+.middle h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    position: relative;
+    bottom: 1.5vh;
+}
+
+.mdl {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 17px;
+    font-style: italic;
+    color: #555;
+}
+
+
+
+
+.rsmm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-left: 4vw; /* Sağ ve soldan boşluk */
+}
+
+.middle2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+    grid-template-rows: repeat(2, 1fr);  /* 2 satır */
+    width: 650px;
+    height: 450px;
+    gap: 10px; /* Resimler arasındaki boşluk */
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.middle2 img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-us {
+    width: 400px;
+    height: 350px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.about-us h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-us p {
+    font-weight: bold;
+    font-size: 19px;
+    color: #555;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+
+
+
+/*  sayfaların en altındaki alan */
+.navbaralt {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.navbaraltaciklama {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 10vw;
+}
+
+.navbaraltaciklama div {
+    width: 30%;
+}
+
+.navbaraltaciklama h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.navbaraltaciklama p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+
+
+
+/*  hakkimizda.html css kodları */
+.hakkimizda-bolumu .kapasite h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hakkimizda-bolumu {
+    padding: 40px 0;
+}
+.kapasite {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hakkimizda-icerik {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.hakkimizda-metni {
+    margin-top:50px;
+    width: 46%;
+    text-align: left;
+}
+.hakkimizda-metni h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.hakkimizda-bolumu p {
+    font-size: 19px;
+    line-height: 1.6;
+    font-style: normal !important;
+}
+.hakkimizda-resim {
+    width: 48%;
+}
+.hakkimizda-resim img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+div.yorumlar {
+    width: 60%;
+    margin: 20px auto;
+    background-color: rgb(63, 152, 180);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color:white;
+}
+
+div.yorumlar h2, div.yorumlar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/* Yorumlar Bölümü */
+.yorum {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.yorum:last-child {
+    border-bottom: none;
+}
+
+.yorum p {
+    font-size:14pt;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.yorum strong {
+    text-align: center;
+    color: rgb(230, 202, 146);
+    position: relative;
+    left:20%;
+    text-transform: uppercase;
+}
+
+.yorum small {
+    color: black;
+}
+
+
+
+/* Yorum Formu */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+form textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: none;
+}
+
+form button {
+    display: inline-block;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+/* Giriş Yapılmadı Mesajı */
+#girissiz{
+    text-align: center;
+    color: #e83e38;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* İletişim Bilgileri */
+.iletisim-bilgileri {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ecf0f1;
+}
+
+.bilgi-ogesi {
+    width: 30%;
+    background-color: #d2d2d4;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bilgi-ogesi h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.bilgi-ogesi p {
+    font-size: 16pt;
+    line-height: 1.5;
+}
+
+/* Harita */
+.bilgi-ogesi iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Form Alanı */
+.iletisim-formu {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.iletisim-formu h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lbl {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.txt {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gonder-btn {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.gonder-btn:hover {
+    background-color: #2ecc71;
+}
+
+
+
+
+
+/* REZERVASYON ALANI */
+.rzv{
+    background-color: #d2d2d4;
+    margin: 100px 60px 80px 60px;
+    display: flex;
+    padding:20px;
+    justify-content: space-between;
+    align-items:center;
+    height: 75vh;
+    border-radius:15px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+
+}
+.rzv div{
+    flex:1;
+    margin:10px;
+    height: 90%;
+    border:1px solid goldenrod;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+}
+.rzv div img{
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.rzv #odatip{
+    font-size: 17pt;
+    font-weight: 300;
+    font-style: italic;
+}
+#bilgilendirme{
+    text-align: center;
+    margin-top:5%;
+    font-size:15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+/* Rezervasyon formu */
+.rzv_form {
+    margin-bottom: 25vh;
+    background-color: rgb(80, 155, 177);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-sizing: border-box;
+    position: relative;
+    left:35%;
+}
+
+.rzv_form h2 {
+    text-align: center;
+    color: white;
+}
+
+/* Form alanları */
+.rzv_form form div {
+    margin-bottom: 15px;
+}
+
+.rzv_form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+.rzv_form select, input[type="tel"], input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+/* Buton stili */
+.rzv_form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.rzv_form button:hover {
+    background-color: #45a049;
+}
+
+
+
